@@ -1,0 +1,214 @@
+/* Global Styles */
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Donate Container */
+
+.DonateContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Donate Content */
+
+.DonateContentContainer {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.DonateTitle {
+  font-size: 32px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.DonateDescription {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.DonateButton {
+  font-size: 20px;
+  padding: 10px 20px;
+  background-color: #337ab7;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.DonateButton:hover {
+  background-color: #23527c;
+}
+
+/* Donate Steps */
+
+.DonateStepsContainer {
+  margin-bottom: 30px;
+}
+
+.DonateRequirementsTitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.DonateStep {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.StepNumber {
+  font-size: 24px;
+  font-weight: bold;
+  color: #337ab7;
+  margin-right: 10px;
+}
+
+.StepContent {
+  flex-grow: 1;
+}
+
+.StepTitle {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.StepDescription {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Donate Requirements */
+
+.DonateRequirementsContainer {
+  margin-bottom: 30px;
+}
+
+.DonateRequirementsList {
+  list-style-type: disc;
+  margin-left: 20px;
+  font-size: 16px;
+  color: #666;
+}
+
+/* How to Apply */
+
+.HowToApplyContainer {
+  margin-bottom: 30px;
+}
+
+.HowToApplyTitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.HowToApplyDescription {
+  font-size: 16px;
+  color: #666;
+}
+
+.ApplyLink {
+  color: #337ab7;
+  transition: color 0.3s ease;
+}
+
+.ApplyLink:hover {
+  color: #23527c;
+  text-decoration: underline;
+}
+
+/* Donate Success Stories */
+
+.DonateSuccessStoriesContainer {
+  margin-bottom: 30px;
+}
+
+.DonateSuccessStoriesTitle {
+  font-size: 24px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.DonateSuccessStory {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+.SuccessStoryImage {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  margin-right: 10px;
+  object-fit: cover;
+}
+
+.SuccessStoryContent {
+  flex-grow: 1;
+}
+
+.SuccessStoryName {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.SuccessStoryText {
+  font-size: 16px;
+  color: #666;
+}
+
+/* Footer */
+
+.Footer {
+  text-align: center;
+  margin-top: 30px;
+  padding: 10px;
+  background-color: #f5f5f5;
+}
+
+.FooterText {
+  font-size: 14px;
+  color: #999;
+}
+
+/* Modal Overlay */
+
+.ModalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 999;
+}
+
+.ModalContent {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 4px;
+  text-align: center;
+}
+
+/* Add your custom styles for the payment form within the modal here */

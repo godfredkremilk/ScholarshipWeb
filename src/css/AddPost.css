@@ -1,0 +1,39 @@
+.add-post-container {
+    display: flex;
+    padding: 10px;
+    background-color: #fff;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .profile-image-container {
+    flex: 0 0 auto;
+    margin-right: 10px;
+  }
+  
+  .profile-image {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  .post-form-container {
+    flex: 1 1 auto;
+  }
+  
+  .post-content {
+    width: 100%;
+    border: none;
+    resize: none;
+    font-size: 18px;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  .submit-button {
+    background-color: #1da1f2;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
